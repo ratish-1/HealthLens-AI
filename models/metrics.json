@@ -1,0 +1,265 @@
+{
+  "diabetes": {
+    "label": "Diabetes",
+    "rows_used": 45000,
+    "features": [
+      "gender",
+      "age",
+      "hypertension",
+      "heart_disease",
+      "smoking_history",
+      "bmi",
+      "HbA1c_level",
+      "blood_glucose_level"
+    ],
+    "positive_rate": 0.0845,
+    "best_model": "Random Forest",
+    "metrics": {
+      "Logistic Regression": {
+        "accuracy": 0.8886,
+        "precision": 0.4245,
+        "recall": 0.8987,
+        "f1": 0.5766,
+        "roc_auc": 0.968
+      },
+      "Random Forest": {
+        "accuracy": 0.9697,
+        "precision": 0.8484,
+        "recall": 0.7803,
+        "f1": 0.8129,
+        "roc_auc": 0.9749
+      }
+    }
+  },
+  "heart_disease": {
+    "label": "Heart Disease",
+    "rows_used": 920,
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalch",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "positive_rate": 0.5533,
+    "best_model": "Random Forest",
+    "metrics": {
+      "Logistic Regression": {
+        "accuracy": 0.8315,
+        "precision": 0.8381,
+        "recall": 0.8627,
+        "f1": 0.8502,
+        "roc_auc": 0.9035
+      },
+      "Random Forest": {
+        "accuracy": 0.8696,
+        "precision": 0.8545,
+        "recall": 0.9216,
+        "f1": 0.8868,
+        "roc_auc": 0.9254
+      }
+    }
+  },
+  "brfss_diabetes": {
+    "label": "Community Diabetes",
+    "rows_used": 45000,
+    "features": [
+      "Age",
+      "Sex",
+      "HighChol",
+      "CholCheck",
+      "BMI",
+      "Smoker",
+      "HeartDiseaseorAttack",
+      "PhysActivity",
+      "Fruits",
+      "Veggies",
+      "HvyAlcoholConsump",
+      "GenHlth",
+      "MentHlth",
+      "PhysHlth",
+      "DiffWalk",
+      "Stroke",
+      "HighBP"
+    ],
+    "positive_rate": 0.5016,
+    "best_model": "Random Forest",
+    "metrics": {
+      "Logistic Regression": {
+        "accuracy": 0.7501,
+        "precision": 0.7402,
+        "recall": 0.7732,
+        "f1": 0.7564,
+        "roc_auc": 0.827
+      },
+      "Random Forest": {
+        "accuracy": 0.7469,
+        "precision": 0.7278,
+        "recall": 0.7914,
+        "f1": 0.7583,
+        "roc_auc": 0.8201
+      }
+    }
+  },
+  "stroke": {
+    "label": "Stroke",
+    "rows_used": 40910,
+    "features": [
+      "sex",
+      "age",
+      "hypertension",
+      "heart_disease",
+      "ever_married",
+      "work_type",
+      "Residence_type",
+      "avg_glucose_level",
+      "bmi",
+      "smoking_status"
+    ],
+    "positive_rate": 0.5001,
+    "best_model": "Random Forest",
+    "metrics": {
+      "Logistic Regression": {
+        "accuracy": 0.6893,
+        "precision": 0.714,
+        "recall": 0.632,
+        "f1": 0.6705,
+        "roc_auc": 0.747
+      },
+      "Random Forest": {
+        "accuracy": 0.9967,
+        "precision": 0.9934,
+        "recall": 1.0,
+        "f1": 0.9967,
+        "roc_auc": 1.0
+      }
+    }
+  },
+  "kidney": {
+    "label": "Kidney Disease",
+    "rows_used": 400,
+    "features": [
+      "age",
+      "bp",
+      "sg",
+      "al",
+      "su",
+      "rbc",
+      "pc",
+      "pcc",
+      "ba",
+      "bgr",
+      "bu",
+      "sc",
+      "sod",
+      "pot",
+      "hemo",
+      "pcv",
+      "wc",
+      "rc",
+      "htn",
+      "dm",
+      "cad",
+      "appet",
+      "pe",
+      "ane"
+    ],
+    "positive_rate": 0.625,
+    "best_model": "Random Forest",
+    "metrics": {
+      "Logistic Regression": {
+        "accuracy": 0.9875,
+        "precision": 1.0,
+        "recall": 0.98,
+        "f1": 0.9899,
+        "roc_auc": 1.0
+      },
+      "Random Forest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      }
+    }
+  },
+  "liver": {
+    "label": "Liver Disease",
+    "rows_used": 1700,
+    "features": [
+      "Age",
+      "Gender",
+      "BMI",
+      "AlcoholConsumption",
+      "Smoking",
+      "GeneticRisk",
+      "PhysicalActivity",
+      "Diabetes",
+      "Hypertension",
+      "LiverFunctionTest"
+    ],
+    "positive_rate": 0.5506,
+    "best_model": "Random Forest",
+    "metrics": {
+      "Logistic Regression": {
+        "accuracy": 0.8206,
+        "precision": 0.8621,
+        "recall": 0.8021,
+        "f1": 0.831,
+        "roc_auc": 0.8957
+      },
+      "Random Forest": {
+        "accuracy": 0.8912,
+        "precision": 0.936,
+        "recall": 0.861,
+        "f1": 0.8969,
+        "roc_auc": 0.9555
+      }
+    }
+  },
+  "hypertension": {
+    "label": "Heart Risk (alternate dataset)",
+    "rows_used": 26083,
+    "features": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "positive_rate": 0.5473,
+    "best_model": "Random Forest",
+    "metrics": {
+      "Logistic Regression": {
+        "accuracy": 0.8363,
+        "precision": 0.8258,
+        "recall": 0.8883,
+        "f1": 0.8559,
+        "roc_auc": 0.905
+      },
+      "Random Forest": {
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      }
+    }
+  }
+}
